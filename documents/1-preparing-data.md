@@ -20,5 +20,5 @@ We require public datasets in both Format-IJCAI2015 and Format-CIKM2016. The lin
 
 The directory `public-data/` contains modified data (e.g., modify small errors and update formats for consistency) from the above public datasets. We encourages users of these datasets to cite the following papers:
 
-- Kwan Hui Lim, Jeffrey Chan, Christopher Leckie and Shanika Karunasekera. "Personalized Tour Recommendation based on User Interests and Points of Interest Visit Durations". IJCAI2015.nference on Artificial Intelligence (IJCAI'15). 2015.
+- Kwan Hui Lim, Jeffrey Chan, Christopher Leckie and Shanika Karunasekera. "Personalized Tour Recommendation based on User Interests and Points of Interest Visit Durations". IJCAI2015.
 - Dawei Chen, Cheng Soon Ong and Lexing Xie. "Learning Points and Routes to Recommend Trajectories". CIKM2016.
