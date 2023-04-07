@@ -1,0 +1,88 @@
+name,theme,poiLat,poiLon,poiID
+Tokyo National Museum,attractions,35.7188351,139.7765215,1
+Ghibli Museum,attractions,35.696238,139.5704317,2
+Golden Gai,attractions,35.6941118,139.7047611,3
+teamLab Borderless,attractions,35.6491207,139.7897739,4
+Shibuya Crossing,attractions,35.65949449999999,139.7005331,5
+Imperial Palace,attractions,35.685175,139.7527995,6
+Sensō-ji,attractions,35.7147651,139.7966553,7
+Meiji-jingū,attractions,35.67639760000001,139.6993259,8
+Edo-Tokyo Museum,attractions,35.6965972,139.7957336,9
+Rikugi-en,attractions,35.73297790000001,139.7463888,10
+Hama-rikyū Onshi-teien,attractions,35.6597374,139.7634925,11
+Koishikawa Kōrakuen,attractions,35.7056876,139.7495428,12
+Tsukiji Market,attractions,35.6649974,139.7698163,13
+Yoyogi-kōen,attractions,35.6715869,139.6967028,14
+Tokyo Metropolitan Government Building,attractions,35.6896342,139.6921007,15
+Omote-sandō,attractions,35.667379,139.7076852,16
+Intermediatheque,attractions,35.67999200000001,139.764921,17
+Fukagawa Fudō-dō,attractions,35.67288909999999,139.7983222,18
+Ukiyo-e Ōta Memorial Museum of Art,attractions,35.6693959,139.7049808,19
+"Asakura Museum of Sculpture, Taitō",attractions,35.7268444,139.768525,20
+Tofuya-Ukai,restaurants,35.6572889,139.7453639,21
+Sushi Dai,restaurants,35.6444158,139.7822951,22
+Inua,restaurants,35.64981849999999,139.7346666,23
+Kikunoi,restaurants,35.66988300000001,139.7340186,24
+Kappō Yoshiba,restaurants,35.7017695,139.7958421,25
+Asakusa Imahan,restaurants,35.7139345,139.7922291,26
+sushi m,restaurants,35.6623165,139.7178219,27
+Kozue,restaurants,35.6854767,139.6907108,28
+Sahsya Kanetanaka,restaurants,35.6655566,139.7105652,29
+Innsyoutei,restaurants,35.71388719999999,139.7726349,30
+Tonki,restaurants,35.6336071,139.7142945,31
+Narukiyo,restaurants,35.6604946,139.7078329,32
+Matsukiya,restaurants,35.6571684,139.6947043,33
+Kizushi,restaurants,35.6864524,139.7836476,34
+Onigiri Yadoroku,restaurants,35.71688499999999,139.794751,35
+Kanae,restaurants,35.701129,139.740524,36
+Kyūbey,restaurants,35.6684684,139.7612701,37
+Kagawa Ippuku,restaurants,35.6919051,139.7671648,38
+Tempura Kondō,restaurants,35.67116960000001,139.7631786,39
+Ryōgoku Kokugikan,entertainment,35.6969732,139.7932746,40
+Kabukiza,entertainment,35.6694245,139.7677687,41
+National Theatre,entertainment,35.6824434,139.6858802,42
+Shinjuku Pit Inn,entertainment,35.690599,139.7073657,43
+Unit,entertainment,35.6471251,139.7022986,44
+Tokyo Dome,entertainment,35.70563959999999,139.7518913,45
+Shimo-Kitazawa Three,entertainment,35.6568007,139.6674114,46
+Tokyo Bunka Kaikan,entertainment,35.7143937,139.775312,47
+Suigian,entertainment,35.6873319,139.7747314,48
+Arashio Stable,entertainment,35.6868316,139.7884661,49
+Jingū Baseball Stadium,entertainment,35.6745308,139.7170749,50
+UFO Club,entertainment,35.69824370000001,139.6550253,51
+P.A.R.M.S,entertainment,35.6977571,139.7703742,52
+Tokyo Takarazuka Theatre,entertainment,35.6727297,139.7592161,53
+Nippon Budōkan,entertainment,35.69333,139.7497076,54
+Kazunoya Oiwake,entertainment,35.7212961,139.7967585,55
+Toho Cinemas Roppongi Hills,entertainment,35.6597462,139.7294866,56
+AKB48 Theatre,entertainment,35.7007415,139.7719487,57
+Sakurai Japanese Tea Experience,nightlife,35.663573,139.71176,58
+Imasa,nightlife,35.70221459999999,139.7673043,59
+Bar BenFiddich,nightlife,35.68948229999999,139.6966117,60
+SG Club,nightlife,35.6642434,139.6992314,61
+Ao,nightlife,35.68854779999999,139.8358841,62
+Gen Yamamoto,nightlife,35.65648780000001,139.7342623,63
+Mikkeller Tokyo,nightlife,35.6594638,139.6960234,64
+Gem by Moto,nightlife,35.64752989999999,139.7175772,65
+Lonely,nightlife,35.73374740000001,139.7964099,66
+Yakumo Saryō,nightlife,35.6189739,139.6675385,67
+Zoetrope,nightlife,35.6944997,139.6984625,68
+Beer-Ma Kanda,nightlife,35.6901807,139.7712211,69
+Popeye,nightlife,35.6820426,139.6984725,70
+Fuglen Tokyo,nightlife,35.6666181,139.6923999,71
+Bridge Coffee &amp; Icecream,nightlife,35.6947643,139.7839198,72
+Mitsukoshi,shopping,35.6856412,139.7735797,73
+Okura,shopping,35.6259601,139.8760841,74
+Muji,shopping,35.6653412,139.7302222,75
+2k540 Aki-Oka Artisan,shopping,35.7031798,139.774044,76
+Same to Esa,shopping,35.7096201,139.6693793,77
+Shibuya Parco,shopping,35.6620484,139.6987767,78
+Babaghuri,shopping,35.6788176,139.7968136,79
+Isetan,shopping,35.691574,139.7046466,80
+Kapital,shopping,35.6437093,139.7098244,81
+Art Sanctuary Allan West,shopping,35.7215019,139.7676926,82
+Kama-asa,shopping,35.7138476,139.7886768,83
+Akomeya,shopping,35.70359079999999,139.7332051,84
+Imadeya,shopping,35.6964782,139.8158871,85
+Japan Traditional Crafts Aoyama Square,shopping,35.6734771,139.7276153,86
+Itōya,shopping,35.6731273,139.7672138,87

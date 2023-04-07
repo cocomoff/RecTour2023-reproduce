@@ -2,8 +2,13 @@
 
 Standard python environment is required. At least the following libraries should be installed.
 
-- library x.xx
-- library x.xx
-- library x.xx
-- library x.xx
-- library x.xx
+- Language
+  - Python 3.9.7
+- Libraries
+  - argparse 1.1
+  - dill 0.3.5.1
+  - matplotlib 3.5.2
+  - numpy 1.23.1
+  - pandas 1.4.3
+  - tqdm 4.64.0
+- Some python standard libraries: json, gzip, os, glob, datetime, etc.

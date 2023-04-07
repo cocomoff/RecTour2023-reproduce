@@ -18,7 +18,14 @@ We require public datasets in both Format-IJCAI2015 and Format-CIKM2016. The lin
 - (IJCAI2015 dataset): https://sites.google.com/site/limkwanhui/datacode#ijcai15
 - (CIKM2016 dataset): https://bitbucket.org/d-chen/tour-cikm16/src/master/data/
 
-The directory `public-data/` contains modified data (e.g., modify small errors and update formats for consistency) from the above public datasets. We encourages users of these datasets to cite the following papers:
+The directory `public-data/` contains modified data from the above public datasets. We encourages users of these datasets to cite the following papers:
 
 - Kwan Hui Lim, Jeffrey Chan, Christopher Leckie and Shanika Karunasekera. "Personalized Tour Recommendation based on User Interests and Points of Interest Visit Durations". IJCAI2015.
 - Dawei Chen, Cheng Soon Ong and Lexing Xie. "Learning Points and Routes to Recommend Trajectories". CIKM2016.
+
+
+Note that `modified data` means we download raw data from the above two links and edit them as follows.
+
+- Fixed delimiter (`;`, `,`) are unified.
+- Column names (e.g., `poiLat` and `lat`) are unified.
+- Spatial error in Osaka data (latitude and longitude of PoiID 26 is incorrect) is removed.

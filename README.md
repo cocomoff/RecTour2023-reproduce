@@ -20,9 +20,11 @@ The followings are documents.
 The following outline represents the structure of this repository.
 
 - `documents/` contains documents for this repository.
+- `extended-data/` contains extended POI data.
 - `figures/` contains output images.
 - `generator/` contains tools to process and generated extended travel log data.
 - `new-meta/` contains pre-processed metadata (see Fig.1 in our submission).
 - `public-data/` contains public travel log data.
 - `tour/` contains baseline implementations for travel itinerary recommendations.
-- `results/` contains some additional figures and results.
+- `results/` contains figures and log data.
+- `scripts/` contains batch files to do experiments and/or visualization.
