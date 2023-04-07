@@ -45,7 +45,10 @@ Note: since `dill` files are large, this repository contains some sample data on
 
 To validate generate travel log data, we compare public datasets and our generated datasets. Use our script `src/validate/validate-userVisits.py` (Format-IJCAI2015) and `src/validate/validate-traj.py` (Format-CIKM2016) for this purpose.
 
-The below list shows examples for Format-CIKM2016 (userVisits data).
+
+### Format-IJCAI2015
+
+The below list shows examples for Format-IJCAI2015 (userVisits data).
 
 ```
 # Osak
@@ -61,3 +64,18 @@ Histograms included in our manuscript can be reproduced.
 | :-- | :-- | :-- |
 | Osaka | ![](../figures/validate/visits/hist-Osak.png) | ![](../figures/validate/timestamp/timehist-Osak.png) |
 | Glasgow | ![](../figures/validate/visits/hist-Glas.png) | ![](../figures/validate/timestamp/timehist-Glas.png) |
+
+### Format-CIKM2016
+
+The below list shows examples for Format-CIKM2016 (traj data). This script is now just for visualization.
+
+```
+# Kuma
+python src/validate/validate-traj.py -city Kuma
+```
+
+Histograms included in our manuscript can be reproduced.
+
+| | POI |
+| :-- | :-- |
+| Kumamoto | ![](../figures/validate/visits/hist-Kumamoto.png) |
