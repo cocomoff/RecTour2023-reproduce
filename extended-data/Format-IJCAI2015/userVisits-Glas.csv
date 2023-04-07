@@ -1,4 +1,4 @@
-photoid,uid,datetaken,poiID,poiTheme,poiFreq,seqID
+photoID,userID,dateTaken,poiID,poiTheme,poiFreq,seqID
 268535960,10063645@N00,1160719626,11,Education,1008,1
 284505324,10063645@N00,1162254208,2,Transport,916,2
 285538933,10063645@N00,1162340788,11,Education,1008,3

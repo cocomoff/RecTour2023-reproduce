@@ -14,7 +14,7 @@ def main(args) -> None:
     df_visit = pd.read_csv(fn_visit)
 
     # remove negative time stamp
-    df_visit = df_visit[df_visit.datetaken > 0]
+    df_visit = df_visit[df_visit.dateTaken > 0]
 
     # output dataframe
     df_output = pd.DataFrame(
@@ -30,9 +30,9 @@ def main(args) -> None:
         }
     )
 
-    dfg = df_visit.groupby(["uid", "seqID"])
+    dfg = df_visit.groupby(["userID", "seqID"])
     for idc, (_, dfkey) in enumerate(dfg):
-        dfkey.sort_values("datetaken", inplace=True)
+        dfkey.sort_values("dateTaken", inplace=True)
         df_seqID = pd.DataFrame(
             {
                 "userID": pd.Series(dtype="str"),
@@ -51,13 +51,13 @@ def main(args) -> None:
 
         for p in pois:
             dfp = dfkey[dfkey.poiID == p]
-            dfps = dfp.sort_values("datetaken")
-            st = dfps.iloc[0].datetaken
-            et = dfps.iloc[-1].datetaken
+            dfps = dfp.sort_values("dateTaken")
+            st = dfps.iloc[0].dateTaken
+            et = dfps.iloc[-1].dateTaken
             duration = et - st
 
             row = {
-                "userID": dfps.iloc[0].uid,
+                "userID": dfps.iloc[0].userID,
                 "trajID": idc + 1,
                 "poiID": dfps.iloc[0].poiID,
                 "startTime": st,

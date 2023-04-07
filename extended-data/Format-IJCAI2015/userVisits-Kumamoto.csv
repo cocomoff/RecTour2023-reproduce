@@ -1,4 +1,4 @@
-photoid,uid,datetaken,poiID,poiTheme,poiFreq,seqID
+photoID,userID,dateTaken,poiID,poiTheme,poiFreq,seqID
 2475742318,10429117@N00,1195109578,16,shopping,25,1
 2474925505,10429117@N00,1195109726,16,shopping,25,1
 2475743026,10429117@N00,1195109802,16,shopping,25,1

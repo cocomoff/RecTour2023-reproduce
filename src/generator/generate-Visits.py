@@ -117,9 +117,15 @@ def main(args, HOURS=8) -> None:
         df_all.loc[i, "seqID"] = int(seqID + 1)
     df_all.seqID = df_all.seqID.astype(int)
 
+    # Modify column name for consistency (w.r.t. public dataN)
+    df_all.rename(
+        columns={"photoid": "photoID", "uid": "userID", "datetaken": "dateTaken"},
+        inplace=True,
+    )
+
     # Clean up data frame of Visits data
     df_main = df_all[
-        ["photoid", "uid", "datetaken", "poiID", "poiTheme", "poiFreq", "seqID"]
+        ["photoID", "userID", "dateTaken", "poiID", "poiTheme", "poiFreq", "seqID"]
     ]
 
     # Save files
