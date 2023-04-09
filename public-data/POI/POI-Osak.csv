@@ -1,4 +1,4 @@
-poiID,poiName,poiLat,poiLon,theme
+poiID,poiName,poiLat,poiLon,poiCat
 1,Osaka_Aquarium_Kaiyukan,34.654472,135.428889,Amusement
 2,Tempozan_Ferris_Wheel,34.6561657,135.431031,Amusement
 3,Tenn%C5%8Dji_Zoo,34.652556,135.508496,Amusement

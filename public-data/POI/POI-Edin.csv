@@ -1,4 +1,4 @@
-poiID,poiName,poiLat,poiLon,theme
+poiID,poiName,poiLat,poiLon,poiCat
 1,Edinburgh_Castle,55.948611,-3.200833,Historical
 2,Holyrood_Palace,55.9525,-3.1725,Historical
 3,National_Museum_of_Scotland,55.94694,-3.19,Museum

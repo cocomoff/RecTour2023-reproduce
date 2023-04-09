@@ -1,4 +1,4 @@
-poiID,poiName,poiLat,poiLon,theme
+poiID,poiName,poiLat,poiLon,poiCat
 1,Glasgow_Central_railway_station,55.858,-4.258,Transport
 2,Glasgow_Queen_Street_railway_station,55.8622,-4.2512,Transport
 3,Glasgow_Airport,55.87194,-4.43306,Transport
