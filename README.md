@@ -19,6 +19,7 @@ The followings are documents.
 
 The following outline represents the structure of this repository.
 
+- `config/` contains config files for experiments.
 - `documents/` contains documents for this repository.
 - `extended-data/` contains extended POI data.
 - `figures/` contains output images.
