@@ -4,5 +4,5 @@
     "fn_poi": "extended-data/POI/POI-kumamoto.csv",
     "fn_traj": "extended-data/Format-CIKM2016/traj-Kumamoto.csv",
     "dir_log": "./results/logs",
-    "fn_output": "log-extended-Kumamoto.csv"
+    "fn_output": "log-extended-Kumamoto-atK.csv"
 }

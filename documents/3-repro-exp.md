@@ -10,7 +10,7 @@ Baseline solves are implemented in `src/tour/*`. Here we implemented for reprodu
 Run `src/experiments/example.py` to check how our solvers work in Osaka and Glasgow, where experiment configurations are given in `config/*.json` files (see `osak.json`) for example.
 
 
-## 3-2. Experiments for reproducing previous results
+## 3-2. Experiments for reproducing previous results (point-set-wise)
 
 To reproduce experiments reported in previous work (e.g., Lim et al. in IJCAI2015 or Chen et al. CIKM2016), we try three approaches (corresponding to (Q1) and (Q2) columns in Table 6; Reproduction Validation).
 
@@ -30,11 +30,21 @@ Resulted log files in Osaka means:
 
 After collecting those results in five cities and results already reported in Chen et al. (CIKM2016), we can obtain Table 6 (maybe some differences can be observed due to differences of (1) computational environments, (2) some (possibly hidden) random seeds, and (3) combinatorial solvers).
 
-## 3-3. Experiments using extended datasets
+## 3-3. Experiments using extended datasets (point-set-wise)
 
 To use extended datasets such as Kumamoto, we just write a config file as follows (see `config/extended/kumamoto.json` as well).
 
 ```
 # run Kumamoto
 python src/experiments/extend-kumamoto.py
+```
+
+
+## 3-4. Run ranking-wise evaluation (@k)
+
+Please run scripts for ranking evaluations (`-atK` suffix) using the same config files. Examples are:
+
+```
+# run Kumamoto @ k
+python src/experiments/extend-kumamoto-atK.py
 ```
