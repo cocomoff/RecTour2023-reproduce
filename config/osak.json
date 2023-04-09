@@ -1,0 +1,8 @@
+{
+    "dir_data": "./public-data",
+    "dir_fig": "./results/figs",
+    "fn_poi": "POI-CIKM2016/poi-Osak.csv",
+    "fn_traj": "traj/traj-Osak.csv",
+    "dir_log": "./results/logs",
+    "fn_output": "log-Osak.csv"
+}
