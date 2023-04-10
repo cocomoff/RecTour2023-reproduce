@@ -12,7 +12,6 @@ The followings are documents.
 - [1. Preparing data](./documents/1-preparing-data.md)
 - [2. Re-producing data](./documents/2-repro-data.md)
 - [3. Re-producing previous experimental results](./documents/3-repro-exp.md)
-- [4. Results](./documents/4-results)
 
 
 # Structure of repository
@@ -29,4 +28,4 @@ The following outline represents the structure of this repository.
 - `src/` contains program files.
   - `src/generator/` contains tools to process and generated extended travel log data.
   - `src/tour/` contains baseline implementations for travel itinerary recommendations.
-  - `scripts/` contains batch files to do experiments and/or visualization.
+- `scripts/` contains batch files to do experiments and/or visualization.
