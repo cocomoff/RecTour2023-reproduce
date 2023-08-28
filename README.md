@@ -1,4 +1,4 @@
-# RecSys2023 Reproducibility Paper; Extending Travel Itinerary Datasets
+# RecTour2023 Paper; Extending Travel Itinerary Datasets
 
 
 This anonymized repository is available during the period of the RecSys2023 conference. Please see the contents below as the companion content and our submission if you are interested.
