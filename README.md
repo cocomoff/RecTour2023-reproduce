@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/624776904.svg)](https://zenodo.org/badge/latestdoi/624776904)
+
+
 # RecTour2023 Paper; Extending Travel Itinerary Datasets Towards Reproducibility
 
 
