@@ -1,0 +1,8 @@
+# extracted meta data
+new-meta/*.gz
+
+# venv
+rectour2023
+
+# cache files
+__pycache__

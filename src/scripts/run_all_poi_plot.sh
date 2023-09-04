@@ -1,10 +1,18 @@
 #!/bin/zsh
 
-# public
-for c in Edin Glas Melb Osak Toro
+# public (IJCAI2015)
+for c in Edin Glas Osak Toro
 do
     python src/tour/visualize/plot-POI.py \
             -filename=./public-data/POI/POI-${c}.csv \
+            -outputname=./figures/POI/public-${c}.png
+done
+
+# public (Melb, CIKM2016)
+for c in Melb
+do
+    python src/tour/visualize/plot-POI.py \
+            -filename=./public-data/POI-CIKM2016/poi-${c}.csv \
             -outputname=./figures/POI/public-${c}.png
 done
 
@@ -14,17 +22,17 @@ python src/tour/visualize/plot-POI.py \
         -outputname=./figures/POI/HC-Kyot.png
 
 # (POI Ext2)
-for c in NYC TKY
-do
-    python src/tour/visualize/plot-POI.py \
-            -filename=./extended-data/POI/POI-4sq-${c}.csv \
-            -outputname=./figures/POI/4sq-${c}.png
-done
-
-# (POI Ext3)
 for c in beppu fukuoka hiroshima kanazawa kumamoto kyoto matsumoto nagasaki naha osaka tokyo
 do
     python src/tour/visualize/plot-POI.py \
             -filename=./extended-data/POI/POI-${c}.csv \
             -outputname=./figures/POI/ext-${c}.png
+done
+
+# (Optional, POI Ext3)
+for c in NYC TKY
+do
+    python src/tour/visualize/plot-POI.py \
+            -filename=./extended-data/POI/POI-4sq-${c}.csv \
+            -outputname=./figures/POI/4sq-${c}.png
 done
